@@ -21,6 +21,52 @@ Using 24 public radiomics datasets covering multiple cancer types, we establishe
 - Investigate the feasibility of applying large language models to radiomics analysis.
 
 ## Methodology
+### Data Preparation
+
+- Data cleaning and preprocessing;
+- Train/validation/test splitting;
+- Handling high-dimensional radiomics features.
+
+### Traditional Machine Learning Models
+
+Baseline models included:
+
+- Linear Discriminant Analysis (LDA)
+- Support Vector Machine (SVM)
+- Random Forest (RF)
+- AdaBoost
+- XGBoost
+
+### Feature Selection
+
+Feature selection techniques included:
+
+- LASSO
+- Sequential Feature Selection (SFS)
+
+### LLM-Based Approaches
+
+Structured radiomics feature vectors were transformed into textual representations using a Feature-to-Text strategy.
+
+Semantic embeddings were generated using:
+
+- BERT
+- LLaMA-3.1-8B
+
+The generated embeddings were subsequently used for downstream classification tasks.
+
+### Evaluation Metrics
+
+Model performance was primarily evaluated using ROC-AUC, with additional metrics including:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+ROC curves, confusion matrices, and performance comparison tables were used to support model interpretation and comparison.
+
+ROC-AUC was used as the primary evaluation metric, with accuracy, precision, recall, and F1-score reported as secondary metrics.
 
 ### Traditional Machine Learning Pipeline
 
