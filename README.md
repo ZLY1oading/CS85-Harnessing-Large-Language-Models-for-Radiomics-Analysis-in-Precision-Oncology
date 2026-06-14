@@ -68,13 +68,32 @@ ROC curves, confusion matrices, and performance comparison tables were used to s
 
 ROC-AUC was used as the primary evaluation metric, with accuracy, precision, recall, and F1-score reported as secondary metrics.
 
-### Traditional Machine Learning Pipeline
-
-### BERT-based Embedding Pipeline
-
-### LLaMA-based Embedding Pipeline
-
 ## Datasets
+A total of **24 public radiomics datasets** were analysed in this study.
+
+The datasets covered multiple cancer types and downstream prediction tasks, including survival prediction and treatment response classification.
+
+Cancer types represented in the datasets include:
+
+- Brain tumors
+
+- Lung cancer
+
+- Liver cancer
+
+- Prostate cancer
+
+- Kidney cancer
+
+- Melanoma
+
+- Head and neck cancer
+
+- Soft tissue sarcomas
+
+- Gastrointestinal stromal tumors (GISTs)
+
+All datasets were obtained from the public repository provided by **RadiomicsHub (radiomics.uk)** and were used for research purposes only.
 
 ## Experimental Results
 
