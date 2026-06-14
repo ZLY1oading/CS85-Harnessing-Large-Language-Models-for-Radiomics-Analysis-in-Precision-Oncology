@@ -10,6 +10,15 @@ Radiomics extracts quantitative features from medical images to support clinical
 Using 24 public radiomics datasets covering multiple cancer types, we established baseline models with traditional machine learning methods, including LDA, SVM, Random Forest, AdaBoost, and XGBoost, and compared them with LLM-based approaches using BERT and LLaMA. The study provides a comparative evaluation of traditional ML and LLM-based pipelines for radiomics prediction tasks.
 
 ## Objectives
+- Establish baseline performance using traditional machine learning models;
+
+- Transform structured radiomics features into textual representations for LLM-based analysis;
+
+- Explore BERT- and LLaMA-based embedding approaches for downstream prediction tasks;
+
+- Compare traditional ML and LLM-based pipelines across multiple radiomics datasets;
+
+- Investigate the feasibility of applying large language models to radiomics analysis.
 
 ## Methodology
 
