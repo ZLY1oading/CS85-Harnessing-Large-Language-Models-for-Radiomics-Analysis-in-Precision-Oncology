@@ -95,20 +95,35 @@ Cancer types represented in the datasets include:
 
 All datasets were obtained from the public repository provided by **RadiomicsHub (radiomics.uk)** and were used for research purposes only.
 
-## Experimental Results
+## Results
+Experiments were conducted on 24 public radiomics datasets covering multiple cancer types and prediction tasks.
 
-## Key Findings
+Performance varied substantially across datasets, and no single model consistently outperformed the others. Traditional machine learning and LLM-based approaches demonstrated different strengths depending on dataset characteristics and task complexity.
+
+On average, LLM-based pipelines achieved slight improvements over traditional baselines, although the differences were not statistically significant. These findings suggest that LLM-generated semantic representations are feasible for radiomics analysis and may provide complementary information to conventional radiomics features.
+
+Overall, the study demonstrates the feasibility of integrating large language models into radiomics analysis workflows.
 
 ## Repository Structure
 
+
 ## Team Contributions
+This project was completed collaboratively by six team members:
 
-## Project Materials
+- Ye Shen
 
-- Proposal
+- Zeyi Li
 
-- Final Report
+- Pei-Han Lee
 
-- Presentation Slides
+- Yongyi Ou
+
+- Yiting Mao
+
+- Jingxiao Zhang
+
+Each team member was responsible for analysing four radiomics datasets and contributed to data preprocessing, model development, experimentation, and result analysis.
 
 ## Acknowledgements
+
+## Disclaimer
