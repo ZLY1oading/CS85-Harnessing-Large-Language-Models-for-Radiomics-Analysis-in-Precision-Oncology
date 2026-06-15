@@ -125,5 +125,6 @@ This project was completed collaboratively by six team members:
 Each team member was responsible for analysing four radiomics datasets and contributed to data preprocessing, model development, experimentation, and result analysis.
 
 ## Acknowledgements
+This project was conducted at the School of Computer Science, The University of Sydney.
 
-## Disclaimer
+The team would like to thank our client, Dr. Lei Bi, and our supervisor, Jiyong Wang, for their guidance, insightful feedback, and continuous support throughout the project. Their expertise and suggestions played an important role in shaping the direction and development of this research.
